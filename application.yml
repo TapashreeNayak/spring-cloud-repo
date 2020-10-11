@@ -20,13 +20,13 @@ eureka:
     hostname: localhost  
     
 microservice:
- Payment-Service:
+ payment-service:
    endpoints:
     endpoints:
       endPoint:
           - http://Payment-Service/payment/doPayment  
 
-Order-Service:
+order-service:
    endpoints:
     endpoints:
       endPoint:
